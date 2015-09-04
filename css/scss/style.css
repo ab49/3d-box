@@ -1,0 +1,82 @@
+/* line 17, ../../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+/* line 22, ../../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html { line-height: 1; }
+
+/* line 24, ../../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul { list-style: none; }
+
+/* line 26, ../../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 28, ../../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+/* line 30, ../../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote { quotes: none; }
+/* line 103, ../../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+/* line 32, ../../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img { border: none; }
+
+/* line 116, ../../../../../../../Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+/*=============================================
+=            Section comment block            =
+=============================================*/
+/*==========================================
+=            Body comment block            =
+==========================================*/
+/* line 17, style.scss */
+.wrap { background: #f5f5f5; height: 100%; width: 100%; position: absolute; }
+
+/* line 23, style.scss */
+.wrap h1 { color: #5BCF33; margin-left: 30%; padding: 11px; font-size: 1.8rem; }
+
+/* line 29, style.scss */
+.box { width: 800px; height: 800px; margin: 0% auto; position: relative; }
+/* line 35, style.scss */
+.box .blockbox { width: 320px; }
+
+/*=============================================
+=            Block comment block            =
+=============================================*/
+/* line 44, style.scss */
+.upperblock { transform: rotateX(65deg) rotateY(0deg) rotateZ(45deg); transform-origin: bottom right; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; clear: both; }
+/* line 50, style.scss */
+.upperblock .block:hover { transform: translate3d(0, -20px, 0); }
+
+/* line 54, style.scss */
+.sideblock { float: left; transform: rotateX(-25deg) rotateY(-45deg) rotateZ(0deg); transform-origin: top right; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; }
+/* line 60, style.scss */
+.sideblock .block:hover { transform: translate3d(-20px, 0px, 0); }
+
+/* line 65, style.scss */
+.frontblock { float: left; transform-origin: top left; transform: rotateX(-25deg) rotateY(45deg) rotateZ(0deg); -webkit-transform-style: preserve-3d; transform-style: preserve-3d; }
+/* line 72, style.scss */
+.frontblock .block:hover { -webkit-animation: trans 2s ease-in 2 alternate; -moz-animation: trans 2s ease-in 2 alternate; -o-animation: trans 2s ease-in 2 alternate; animation: trans 2s ease-in 2 alternate; }
+
+/* line 76, style.scss */
+.block { width: 96px; height: 96px; border: 2px solid #000000; background: #FAF46A; display: inline-block; margin: 2px 2px 2px 2px; }
+/* line 83, style.scss */
+.block:hover { cursor: pointer; }
+
+/* line 88, style.scss */
+.red { background: #E25E2B; }
+
+/* line 91, style.scss */
+.green { background: #5BCF33; }
+
+@keyframes trans { /* line 98, style.scss */
+  0% { transform: rotate(180deg); }
+  /* line 102, style.scss */
+  25% { transform: translate3d(0, 0, 60px); }
+  /* line 108, style.scss */
+  50% { transform: translate3d(60px, 0, 60px); }
+  /* line 111, style.scss */
+  75% { transform: translate3d(60px, 0, 60px); }
+  /* line 115, style.scss */
+  100% { transform: translate3d(60px, 0, 100px); } }
